@@ -1,0 +1,28 @@
+cybersecurity_cockpit/
+├── backend/
+│   ├── main.py                 # FastAPI backend server
+│   ├── file_processor.py       # File processing utilities
+│   ├── database.py             # Database operations
+│   ├── ai_model.py             # AI classification model
+│   ├── requirements.txt        # Python dependencies
+│   ├── documents.db            # SQLite database
+│   └── uploads/                # Uploaded files directory
+├── frontend/
+│   ├── public/
+│   │   └── index.html          # Static HTML entry point
+│   ├── src/
+│   │   ├── App.js             # Main React component
+│   │   ├── App.css            # Main styles
+│   │   ├── index.js           # React entry point
+│   │   ├── index.css          # Global styles
+│   │   ├── reportWebVitals.js # Performance monitoring
+│   │   └── components/
+│   │       ├── FileUpload.js  # File upload component
+│   │       ├── FileUpload.css # Upload component styles
+│   │       ├── FileList.js    # File list component
+│   │       └── FileList.css   # List component styles
+│   ├── package.json           # Node.js dependencies
+│   └── package-lock.json      # Locked dependencies
+└── deployment/
+    ├── docker-compose.yml     # Docker configuration
+    └── ubuntu_setup.sh        # Ubuntu deployment script
